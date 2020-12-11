@@ -1,0 +1,26 @@
+.MusicCard {
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.MusicCard a {
+    text-decoration: none;
+    color: salmon;
+}
+.MusicCard a:hover {
+    text-decoration: underline;
+}
+
+.Artist {
+    cursor: pointer;
+}
+
+.Artist:hover {
+    text-decoration: underline;
+}
